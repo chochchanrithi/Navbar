@@ -1,67 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1b1a1a;
+body {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1b1a1a;
 }
-nav{
-    background: #2b2b2b;
-    padding: 18px 30px;
-    border-radius: 50px;
-    box-shadow: 0 5px rgba(0, 0, 0,.35);
+nav {
+  background: #2b2b2b;
+  padding: 18px 30px;
+  border-radius: 50px;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.35);
 }
-nav ul{
-    display: flex;
-    gap: 18px;
-    list-style: none;
-    align-items: center;
+nav ul {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  align-items: center;
 }
-nav a{
-    position: relative;
-    display: block;
-    padding: 12px 22px;
-    border-radius: 999px;
-    text-decoration: none;
-    color: #ececec;
-    font-size: 20px;
-    font-weight: 500;
-    transition: .35s ease;
-    overflow: hidden;
+nav a {
+  position: relative;
+  display: block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #ececec;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.35s ease;
+  overflow: hidden;
 }
-nav a:hover{
-    color: #ffff;
-    transform: translateY(-5px);
-    font-size: 21px;
+nav a:hover {
+  color: #ffff;
+  transform: translateY(-5px);
+  font-size: 21px;
 }
-nav a::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 999px;
-    background: linear-gradient(135deg,#ff4b4b,#8b2cff);
-    opacity: 0;
-    z-index: -1;
-    transition: .35s;
+nav a::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ff4b4b, #8b2cff);
+  opacity: 0;
+  z-index: -1;
+  transition: 0.35s;
 }
-nav a:hover::before{
-    opacity: 1;
+nav a:hover::before {
+  opacity: 1;
 }
-main{
-    background-color: blue;
-    text-align: center;
-    bottom: 100%;
-    
+main {
+  background-color: blue;
+  text-align: center;
+  bottom: 100%;
 }
-section{
-    text-align: center;
-    color: #ececec;
-    margin: 50px;
+section {
+  text-align: center;
+  color: #ececec;
+  margin: 50px;
 }

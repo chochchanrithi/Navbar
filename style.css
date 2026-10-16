@@ -54,3 +54,14 @@ nav a::before{
 nav a:hover::before{
     opacity: 1;
 }
+main{
+    background-color: blue;
+    text-align: center;
+    bottom: 100%;
+    
+}
+section{
+    text-align: center;
+    color: #ececec;
+    margin: 50px;
+}
